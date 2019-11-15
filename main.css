@@ -1,0 +1,147 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+body{
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    background: #4c99cc;
+    border: 10px solid #3f81ac;
+    margin: 0;
+}
+
+.top {
+    width: 50%;
+    margin: 0 auto;
+}
+
+ h1{
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+ h4{
+     font-weight: normal;
+     font-size: 14px;
+     color: #ffffff;
+ }
+
+.page-main{
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: white;
+}
+.cities {
+    list-style: none;
+    font-size: 0;
+    padding-inline-start: 0;
+    color: #eaeaea;
+}
+
+ul:hover > li {
+    opacity: 0.5;
+}
+
+.cities li:hover {
+    opacity: 1;
+}
+
+
+.cities li{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+    height: 100px;
+    padding:16px;
+    border: 4px solid #ffffff;
+}
+
+.cities .lisbon{
+    width: 50%;
+    background-color: #4c99cc;
+    border-width: 4px 2px 2px 4px;
+}
+
+.cities .paris{
+    width: 25%;
+    background-color: #65cccd;
+    border-width: 4px 2px 2px 2px;
+}
+
+.cities .belgrade {
+    width: 25%;
+    background-color: #996599;
+    border-width: 4px 4px 2px 2px;
+}
+
+.cities .moscow{
+    width: 25%;
+    background-color: #c24647;
+    border-width: 2px 2px 2px 4px;
+}
+
+.cities .tel{
+    width: 25%;
+    background-color: #e2664a;
+    border-width: 2px 2px 2px 2px;
+}
+
+.cities .cair{
+    width: 25%;
+    background-color: #f4cc64;
+    border-width: 2px 2px 2px 2px;
+}
+
+.cities .york{
+    width: 25%;
+    background-color: #99cb99;
+    border-width: 2px 4px 2px 2px;
+}
+
+.cities .delhi {
+    width: 25%;
+    background-color: #669898;
+    border-width: 2px 2px 2px 4px;
+}
+
+.cities .sun{
+    width: 50%;
+    background-color: #cc6599;
+    border-width: 2px 2px 2px 2px;
+}
+
+.cities .tokyo {
+    width: 25%;
+    background-color: #489966;
+    border-width: 2px 4px 2px 2px;
+}
+
+.cities .sydney {
+    width: 100%;
+    background-color: #666698;
+    border-width: 2px 4px 4px 4px;
+}
+
+.wi {
+    padding-left: 10px;
+}
+
+.bottom {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
